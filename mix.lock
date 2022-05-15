@@ -1,6 +1,6 @@
 %{
   "castore": {:hex, :castore, "0.1.17", "ba672681de4e51ed8ec1f74ed624d104c0db72742ea1a5e74edbc770c815182f", [:mix], [], "hexpm", "d9844227ed52d26e7519224525cb6868650c272d4a3d327ce3ca5570c12163f9"},
-  "easyhtml": {:git, "https://github.com/wojtekmach/easyhtml.git", "c98aae6016d60171550064ccf38dd6b4431f174a", []},
+  "easyhtml": {:git, "https://github.com/wojtekmach/easyhtml.git", "8fef0715c789f0dec58ef6f578cb281ec79cae0f", []},
   "finch": {:hex, :finch, "0.11.0", "622d31c224c801444c6003544fa1964a29551895b45c3543f6e4d8b0dab80f71", [:mix], [{:castore, "~> 0.1", [hex: :castore, repo: "hexpm", optional: false]}, {:mint, "~> 1.3", [hex: :mint, repo: "hexpm", optional: false]}, {:nimble_options, "~> 0.4.0", [hex: :nimble_options, repo: "hexpm", optional: false]}, {:nimble_pool, "~> 0.2.6", [hex: :nimble_pool, repo: "hexpm", optional: false]}, {:telemetry, "~> 0.4 or ~> 1.0", [hex: :telemetry, repo: "hexpm", optional: false]}], "hexpm", "047550448148d828ddea1fb76fa3f0d2d0742eca6919e548fdd8357630cae449"},
   "floki": {:hex, :floki, "0.32.1", "dfe3b8db3b793939c264e6f785bca01753d17318d144bd44b407fb3493acaa87", [:mix], [{:html_entities, "~> 0.5.0", [hex: :html_entities, repo: "hexpm", optional: false]}], "hexpm", "d4b91c713e4a784a3f7b1e3cc016eefc619f6b1c3898464222867cafd3c681a3"},
   "hpax": {:hex, :hpax, "0.1.1", "2396c313683ada39e98c20a75a82911592b47e5c24391363343bde74f82396ca", [:mix], [], "hexpm", "0ae7d5a0b04a8a60caf7a39fcf3ec476f35cc2cc16c05abea730d3ce6ac6c826"},
