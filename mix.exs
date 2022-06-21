@@ -19,7 +19,7 @@ defmodule ReqEasyHTML.MixProject do
 
   defp deps do
     [
-      {:req, github: "wojtekmach/req"},
+      {:req, "~> 0.3.0"},
       {:easyhtml, github: "wojtekmach/easyhtml"}
     ]
   end
