@@ -7,7 +7,22 @@ defmodule ReqEasyHTML.MixProject do
       version: "0.1.0",
       elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      preferred_cli_env: [
+        docs: :docs,
+        "hex.publish": :docs
+      ],
+      docs: [
+        main: "readme",
+        extras: ["README.md", "CHANGELOG.md"]
+      ],
+      package: [
+        description: "Req plugin for EasyHTML.",
+        licenses: ["Apache-2.0"],
+        links: %{
+          "GitHub" => "https://github.com/wojtekmach/req_easyhtml"
+        }
+      ]
     ]
   end
 
@@ -20,7 +35,8 @@ defmodule ReqEasyHTML.MixProject do
   defp deps do
     [
       {:req, "~> 0.3.0"},
-      {:easyhtml, github: "wojtekmach/easyhtml"}
+      {:easyhtml, "~> 0.1.0"},
+      {:ex_doc, ">= 0.0.0", only: :docs}
     ]
   end
 end

@@ -6,8 +6,8 @@
 
 ```elixir
 Mix.install([
-  {:req, github: "wojtekmach/req"},
-  {:req_easyhtml, github: "wojtekmach/req_easyhtml"}
+  {:req, "~> 0.3.0"},
+  {:req_easyhtml, "~> 0.1.0"}
 ])
 
 req =
