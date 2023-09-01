@@ -6,13 +6,13 @@
 
 ```elixir
 Mix.install([
-  {:req, "~> 0.3.0"},
+  {:req, "~> 0.4.0"},
   {:req_easyhtml, "~> 0.1.0"}
 ])
 
 req =
-  Req.new()
-  |> ReqEasyHTML.attach()
+  (Req.new()
+  |> ReqEasyHTML.attach())
 
 Req.get!(req, url: "https://elixir-lang.org").body[".entry-summary h5"]
 #=>
