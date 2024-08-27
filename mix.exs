@@ -35,7 +35,7 @@ defmodule ReqEasyHTML.MixProject do
   defp deps do
     [
       {:req, "~> 0.4.0 or ~> 0.5.0"},
-      {:easyhtml, "~> 0.1.0"},
+      {:easyhtml, "~> 0.3.0"},
       {:ex_doc, ">= 0.0.0", only: :docs}
     ]
   end
