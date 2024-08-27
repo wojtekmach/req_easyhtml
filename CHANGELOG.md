@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.1.3 (2024-08-27)
+
+  * Support EasyHTML v0.3.
+
 ## v0.1.2 (2024-07-19)
 
   * Support Req v0.5.
