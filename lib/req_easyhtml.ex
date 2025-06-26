@@ -6,7 +6,7 @@ defmodule ReqEasyHTML do
   defp decode({request, response}) do
     case Req.Response.get_header(response, "content-type") do
       ["text/html" <> _] ->
-        response = update_in(response.body, &EasyHTML.parse!/1)
+        response = update_in(response.body, &EasyHTML.from_fragment/1)
         {request, response}
 
       _other ->

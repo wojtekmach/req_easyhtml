@@ -1,5 +1,5 @@
 defmodule ReqEasyHTMLTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
   doctest ReqEasyHTML
 
   test "greets the world" do

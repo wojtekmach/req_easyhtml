@@ -4,8 +4,8 @@ defmodule ReqEasyHTML.MixProject do
   def project do
     [
       app: :req_easyhtml,
-      version: "0.1.3",
-      elixir: "~> 1.12",
+      version: "0.2.0-dev",
+      elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       preferred_cli_env: [
@@ -34,8 +34,8 @@ defmodule ReqEasyHTML.MixProject do
 
   defp deps do
     [
-      {:req, "~> 0.4.0 or ~> 0.5.0"},
-      {:easyhtml, "~> 0.3.0"},
+      {:req, "0.5.0"},
+      {:easyhtml, "~> 0.4.0"},
       {:ex_doc, ">= 0.0.0", only: :docs}
     ]
   end
