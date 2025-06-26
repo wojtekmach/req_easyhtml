@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.2.1 (2025-06-26)
+
+  * Fix version requirement on Req.
+
 ## v0.2.0 (2025-06-26)
 
   * Require Req v0.5+.
